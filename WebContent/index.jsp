@@ -155,7 +155,7 @@ function saveBtnClicked(btn) {
   $editTextIntput.val($editTextIntput.val().trim());
   
   if ( $editTextIntput.val() == "" ) {
-    alert('내용을 입력해주세요.');
+    alert('내용을 입력해주세요. ');
     $editTextIntput.focus();
     
     return false;
